@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Rust: debug binary",
+            "type": "lldb",
+            "request": "launch",
+            "envFile": "${workspaceFolder}/.env",
+            "terminal": "integrated",
+            "cargo": {
+                "args": [
+                    "build"
+                ],
+                "filter": {
+                    "name": "rusthellofn",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Rust: attach",
+            "type": "lldb",
+            "request": "attach",
+            "pid": "${command:pickMyProcess}"
+        }
+    ]
+}
