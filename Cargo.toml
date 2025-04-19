@@ -1,0 +1,8 @@
+[package]
+name = "rusthellofn"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+openiap-client = "0.0.31"
+tokio = "1.44.2"
