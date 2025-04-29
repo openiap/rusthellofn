@@ -1443,9 +1443,9 @@ checksum = "42f5e15c9953c5e4ccceeb2e7382a716482c34515315f7b03532b8b4e8393d2d"
 
 [[package]]
 name = "openiap-client"
-version = "0.0.32"
+version = "0.0.36"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0e27037936b054816a863bc662562996aa06cb7e589dc87294fd18f167c183d5"
+checksum = "0c1f3fa9d04b82bf34f8d587ccae8b25249c03e2db97b7f4b1ce62527904cfc9"
 dependencies = [
  "async-channel 2.3.1",
  "bytes",
